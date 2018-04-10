@@ -68,8 +68,8 @@ Vue技术栈作为当今前端的核心技能之一，应该熟练掌握，不�
 [normalizeNamespace : 源码957~965行](./normalizeNamespace.md)
 [getModuleByNamespace : 源码969~975行](./getModuleByNamespace.md)
 
-##补充
-###关于mapState
+## 补充
+### 关于mapState
 当其第二个参数（第一个参数是namespace，可以没有）为对象时，该对象的键对应的值是函数时，除了获取namespace指定的state，还会获取对应的getters
 源码中有：
 
